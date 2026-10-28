@@ -1,7 +1,7 @@
 {
   "name": "sabiload",
   "productName": "Sabiload",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Blazing-fast multi-network download manager: combine Wi-Fi, Ethernet and mobile data into one super connection.",
   "main": "./out/main/index.js",
   "author": {

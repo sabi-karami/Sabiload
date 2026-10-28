@@ -1,6 +1,6 @@
 # Contributing to Sabiload
 
-Thanks for helping make Sabiload faster! · ممنون که به بهتر شدن صبی‌لود کمک می‌کنید!
+Thanks for helping make Sabiload faster! · ممنون که به بهتر شدن صابی‌لود کمک می‌کنید!
 
 ## Getting started
 

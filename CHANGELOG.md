@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.1 — 2026-10-28
+
+### Fixed
+- Persian name is now spelled **صابی‌لود** everywhere: app, tray menu, browser extension, website, README and release notes
+
 ## 1.0.0 — 2026-10-28
 
 First public release of **Sabiload**. 🎉

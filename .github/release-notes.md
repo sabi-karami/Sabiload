@@ -1,8 +1,10 @@
 <div align="center">
 <img src="https://raw.githubusercontent.com/sabi-karami/Sabiload/main/docs/assets/banner.svg" width="100%" alt="Sabiload">
 
-## 🚀 Sabiload 1.0.0 is here! · صبی‌لود ۱٫۰ منتشر شد!
+## 🚀 Sabiload 1.0.1 · صابی‌لود ۱٫۰٫۱
 </div>
+
+> **What’s new in 1.0.1:** the Persian name is now spelled correctly everywhere: **صابی‌لود**. · <span dir="rtl">**تازه‌های ۱٫۰٫۱:** نام فارسی برنامه همه‌جا به‌درستی **صابی‌لود** نوشته شد.</span>
 
 **Every connection. One download.** Sabiload combines Wi-Fi, Ethernet, mobile data and USB tethering into one much faster download.
 
@@ -33,12 +35,12 @@
 
 | | |
 |---|---|
-| 🪟 Windows | `sabiload-1.0.0-setup.exe` |
-| 🍎 macOS (Apple Silicon) | `sabiload-1.0.0-mac-arm64.dmg` |
-| 🍎 macOS (Intel) | `sabiload-1.0.0-mac-x64.dmg` |
+| 🪟 Windows | `sabiload-1.0.1-setup.exe` |
+| 🍎 macOS (Apple Silicon) | `sabiload-1.0.1-mac-arm64.dmg` |
+| 🍎 macOS (Intel) | `sabiload-1.0.1-mac-x64.dmg` |
 | 🐧 Linux | `.AppImage` · `.deb` · `.rpm` |
-| 🧩 Chrome / Edge | `sabiload-extension-chrome-1.0.0.zip` |
-| 🦊 Firefox | `sabiload-extension-firefox-1.0.0.zip` |
+| 🧩 Chrome / Edge | `sabiload-extension-chrome-1.0.1.zip` |
+| 🦊 Firefox | `sabiload-extension-firefox-1.0.1.zip` |
 
 > **Windows**: if SmartScreen appears, click *More info → Run anyway*. **macOS**: on first launch right-click → *Open*, or run `xattr -dr com.apple.quarantine /Applications/Sabiload.app`.
 

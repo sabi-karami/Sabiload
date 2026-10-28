@@ -36,7 +36,7 @@ function applyLang() {
   if (on?.dataset.shot === 'main-fa' || on?.dataset.shot === 'main-en-aurora') {
     /* keep the chosen theme */
   }
-  shot.alt = lang === 'fa' ? 'تصویر صبی‌لود' : 'Sabiload screenshot'
+  shot.alt = lang === 'fa' ? 'تصویر صابی‌لود' : 'Sabiload screenshot'
   detectOS()
   renderFeatures()
 }

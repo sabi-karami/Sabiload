@@ -14,7 +14,7 @@ const STRINGS = {
   fa: {
     done: 'دانلود کامل شد',
     failed: 'دانلود ناموفق بود',
-    show: 'نمایش صبی‌لود',
+    show: 'نمایش صابی‌لود',
     pauseAll: 'توقف همه',
     resumeAll: 'ادامهٔ همه',
     quit: 'خروج',

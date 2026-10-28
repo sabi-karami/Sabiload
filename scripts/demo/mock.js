@@ -170,7 +170,7 @@
 
   const ok = (v) => Promise.resolve(JSON.parse(JSON.stringify(v ?? null)))
   window.sabi = {
-    getInfo: () => ok({ version: '1.0.0', platform: 'web-demo', arch: 'wasm', bindingOk: true, electron: '—' }),
+    getInfo: () => ok({ version: '1.0.1', platform: 'web-demo', arch: 'wasm', bindingOk: true, electron: '—' }),
     getSettings: () => ok(settings),
     setSettings: (p) => {
       Object.assign(settings, p)

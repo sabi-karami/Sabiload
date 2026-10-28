@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Sabiload — Download Accelerator",
   "short_name": "Sabiload",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Send downloads to Sabiload and download them through all of your networks at once.",
   "author": "Saheb Karami",
   "homepage_url": "https://sabi-karami.github.io/Sabiload/",
