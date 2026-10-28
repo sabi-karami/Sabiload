@@ -30,8 +30,6 @@ nsis:
   createDesktopShortcut: always
   shortcutName: Sabiload
   artifactName: ${name}-${version}-setup.${ext}
-  installerLanguages: [en_US, fa_IR]
-  multiLanguageInstaller: true
 mac:
   category: public.app-category.utilities
   icon: build/icon.png
