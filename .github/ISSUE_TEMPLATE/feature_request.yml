@@ -1,0 +1,14 @@
+name: ✨ Feature request · پیشنهاد قابلیت
+description: Suggest an idea · ایده‌ای پیشنهاد دهید
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea · ایدهٔ شما
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is it useful? · چرا مفید است؟

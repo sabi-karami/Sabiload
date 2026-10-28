@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="ui.css" />
+  </head>
+  <body class="wide">
+    <header>
+      <img src="icons/icon-48.png" alt="" />
+      <div>
+        <h1>Sabiload settings</h1>
+        <p class="muted">تنظیمات افزونهٔ صبی‌لود</p>
+      </div>
+    </header>
+    <label class="field">Skip files smaller than (MB) · فایل‌های کوچک‌تر از<input id="min" type="number" min="0" step="1" /></label>
+    <label class="field">Excluded sites, one per line · سایت‌های مستثنا<textarea id="excluded" rows="5"></textarea></label>
+    <label class="field">App port · پورت برنامه<input id="port" type="number" min="1024" max="65535" /></label>
+    <button id="save">Save · ذخیره</button>
+    <p id="saved" class="ok" hidden>Saved ✓</p>
+    <script type="module" src="options.js"></script>
+  </body>
+</html>

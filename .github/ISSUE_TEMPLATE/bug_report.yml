@@ -1,0 +1,34 @@
+name: 🐞 Bug report · گزارش مشکل
+description: Something isn't working · چیزی درست کار نمی‌کند
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened? · چه اتفاقی افتاد؟
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce · مراحل تکرار
+      placeholder: "1. Add this link…\n2. …"
+  - type: input
+    id: version
+    attributes:
+      label: Sabiload version · نسخه
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system · سیستم‌عامل
+      options: [Windows 11, Windows 10, macOS (Apple Silicon), macOS (Intel), Linux]
+    validations:
+      required: true
+  - type: input
+    id: networks
+    attributes:
+      label: Networks used · شبکه‌ها
+      placeholder: "Wi-Fi + iPhone USB"

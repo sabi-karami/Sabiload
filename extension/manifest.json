@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Sabiload — Download Accelerator",
+  "short_name": "Sabiload",
+  "version": "1.0.0",
+  "description": "Send downloads to Sabiload and download them through all of your networks at once.",
+  "author": "Saheb Karami",
+  "homepage_url": "https://sabi-karami.github.io/Sabiload/",
+  "icons": { "16": "icons/icon-16.png", "32": "icons/icon-32.png", "48": "icons/icon-48.png", "128": "icons/icon-128.png" },
+  "action": {
+    "default_title": "Sabiload",
+    "default_popup": "popup.html",
+    "default_icon": { "16": "icons/icon-16.png", "32": "icons/icon-32.png" }
+  },
+  "options_ui": { "page": "options.html", "open_in_tab": false },
+  "background": { "service_worker": "background.js", "scripts": ["background.js"] },
+  "permissions": ["downloads", "contextMenus", "storage", "cookies"],
+  "host_permissions": ["<all_urls>", "http://127.0.0.1/*"],
+  "browser_specific_settings": {
+    "gecko": { "id": "sabiload@sabi-karami.github.io", "strict_min_version": "121.0" }
+  }
+}
